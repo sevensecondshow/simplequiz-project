@@ -1,15 +1,15 @@
 const questions = [
   {
-    "question": "Age range?",
-    "answer1": "under 18",
+    "question": "ASL?",
+    "answer1": "yikes",
     "answer1Total": "1",
-    "answer2": "18 - 30",
+    "answer2": "jenkies",
     "answer2Total": "2",
-    "answer3": "over 30",
+    "answer3": "bonkers",
     "answer3Total": "3"
   },
   {
-    "question": "I am very imaginative.",
+    "question": "i got a big wiener",
     "answer1": "Agree",
     "answer1Total": "1",
     "answer2": "Neutral",
@@ -19,12 +19,12 @@ const questions = [
   },
   {
     "question":
-      "Select in which order you would value these \"Money, Love & Career",
-    "answer1": "Love, Career, Money",
+      "fuck marry kill: naruto, one piece guy, bleach guy",
+    "answer1": "naruto",
     "answer1Total": "1",
-    "answer2": "Money, Career, Love",
+    "answer2": "moneky",
     "answer2Total": "3",
-    "answer3": "Career, Love, Money",
+    "answer3": "bleach",
     "answer3Total": "2"
   },
   {
@@ -38,12 +38,12 @@ const questions = [
     "answer3Total": "1"
   },
   {
-    "question": "Which best describes your relationship with food",
-    "answer1": "You tend to over-eat when you have company.",
+    "question": "best sentence to describe me",
+    "answer1": "ethereal",
     "answer1Total": "1",
-    "answer2": "You tend to eat snacks secretly.",
+    "answer2": "effervescent",
     "answer2Total": "2",
-    "answer3": "You prepare food and don\’t even look at the recipe.",
+    "answer3": "egregious",
     "answer3Total": "3"
   },
   {
@@ -59,11 +59,11 @@ const questions = [
   },
   {
     "question": "Which of the following colours do you like most?",
-    "answer1": "Black",
+    "answer1": "grey",
     "answer1Total": "1",
-    "answer2": "Yellow or light blue",
+    "answer2": "brown",
     "answer2Total": "2",
-    "answer3": "Red or orange",
+    "answer3": "yellow",
     "answer3Total": "3"
   }
 ]
