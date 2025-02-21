@@ -48,7 +48,7 @@ function generateQuestions (index) {
     option1.innerHTML = `${question.answer1}`
     option2.innerHTML = `${question.answer2}`
     option3.innerHTML = `${question.answer3}`
-    option3.innerHTML = `${question.answer4}`
+    option4.innerHTML = `${question.answer4}`
 }
 
 
