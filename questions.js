@@ -35,14 +35,13 @@ const questions = [
   },
   {
     "question": "Your friend is getting in a fight. What's the move?",
-    "answer1": "You feel superior to other people.",
+    "answer1": "you're their second if they die!!",
     "answer1Total": "3",
-    "answer2": "You consider yourself more practical than creative.",
+    "answer2": "jump in, you're the queen's consort and representative",
     "answer2Total": "2",
-    "answer3":
-      "Winning a debate matters less to you than making sure no one gets upset.",
+    "answer3": "okay but convince them not to fight",
     "answer3Total": "1",
-    "answer4": "Buy them a treat",
+    "answer4": "make the first move DISTRACT and run away",
     "answer4Total": "4"
   },
   {
@@ -75,7 +74,7 @@ const questions = [
     "answer1Total": "1",
     "answer2": "brown",
     "answer2Total": "2",
-    "answer3": "yellow",
+    "answer3": "magenta",
     "answer3Total": "3",
     "answer4": "purple",
     "answer4Total": "4"
