@@ -86,6 +86,7 @@ function loadNextQuestion () {
          `<h1 class="final-score">Your score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
+            <img src="unicorns.jpg" />
             <p>Possible - Personality Traits, see below for a summary based on your results:</p>
             <p>15 - 21- Chimera</p>
             <p>10 - 15 - Pixie</p>
