@@ -42,7 +42,9 @@ body {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
 }
 .question {
   margin: 2rem 0;
