@@ -87,14 +87,26 @@ function loadNextQuestion () {
          <div class="summary">
             <h1>Summary</h1>
             <img src="unicorns.gif" class="center">
-            <p>Possible - Personality Traits, see below for a summary based on your results:</p>
-            <p>15 - 21- Chimera</p>
-            <p>10 - 15 - Pixie</p>
-            <p>5 - 10 - Dragon </p>
-            <p>5 - Unicorn</p>
-        </div>
-        <button class="restart">Restart Quiz</button>
-         `;
+            <p>Possible - Personality Traits, see below for a summary based on your results:</p></div>`
+                if (totalScore =< 21 && totalScore > 15)
+                {
+                    `<div class="summary"><p>15 - 21 - Chimera </p></div>`
+                }
+                else if (totalScore =< 15 && totalScore > 10)
+                {
+                    `<div class="summary"><p>10 - 15 - Pixie </p></div>`
+                }
+                else if(totalScore =< 10 && totalScore > 5)
+                {
+                    `<div class="summary"><p>5 - 10 - Dragon </p></div>`
+                }	
+                else if(totalScore =< 5)
+                {
+                    `<div class="summary"><p>5 - Unicorn </p></div>`
+                }
+        
+        `<button class="restart">Restart Quiz</button>`
+         ;
         return;
     }
     generateQuestions(currentQuestion);
