@@ -82,19 +82,60 @@ function loadNextQuestion () {
     //If the quiz is finished then we hide the questions container and show the results 
     if(currentQuestion == totalQuestions) {
         container.style.display = 'none';
-        result.innerHTML =
+        if (totalScore <= 21 && totalScore > 15)
+			{
+            result.innerHTML =
          `<h1 class="final-score">Your score: ${totalScore}</h1>
          <div class="summary">
             <h1>Summary</h1>
             <img src="unicorns.gif" class="center">
-            <p>Possible - Personality Traits, see below for a summary based on your results:</p>
-            <p>15 - 21- Chimera</p>
-            <p>10 - 15 - Pixie</p>
-            <p>5 - 10 - Dragon </p>
+            <p>15 - 21 Chimera </p>
+        </div>
+        <button class="restart">Restart Quiz</button>
+        `;
+			}
+		else if (totalScore <= 15 && totalScore > 10)
+			{
+            result.innerHTML =
+         `<h1 class="final-score">Your score: ${totalScore}</h1>
+         <div class="summary">
+            <h1>Summary</h1>
+            <img src="unicorns.gif" class="center">
+            <p>10 - 15 Pixie </p>
+        </div>
+        <button class="restart">Restart Quiz</button>
+        `;
+			}
+
+		else if(totalScore <= 10 && totalScore > 5)
+			{
+			result.innerHTML =
+         `<h1 class="final-score">Your score: ${totalScore}</h1>
+         <div class="summary">
+            <h1>Summary</h1>
+            <img src="unicorns.gif" class="center">
+            <p>5 - 10 Dragon </p>
+        </div>
+        <button class="restart">Restart Quiz</button>
+        `;
+			}	
+		else if(totalScore <= 5)
+			{
+            result.innerHTML =
+         `<h1 class="final-score">Your score: ${totalScore}</h1>
+         <div class="summary">
+            <h1>Summary</h1>
+            <img src="unicorns.gif" class="center">
             <p>5 - Unicorn</p>
         </div>
         <button class="restart">Restart Quiz</button>
         `;
+			}
+        else
+        {
+            result.innerHTML = 
+                `<h1 class="final score"> error </h1>`;
+        }
         return;
     }
     generateQuestions(currentQuestion);
